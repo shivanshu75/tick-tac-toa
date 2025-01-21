@@ -13,8 +13,9 @@ const App = () => {
     setBoard(newBoard);
     setIsXNext(!isXNext);
   };
-  // test
-// git push --set-upstream origin main
+
+
+
 
   const calculateWinner = (board) => {
     const lines = [
